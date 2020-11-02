@@ -37,7 +37,6 @@ void helper(int input[], int n, int output[][50], int k,int a[],int e)
     helper(input+1,n-1,output,k-input[0],a,e+1);
 }
 int subsetSumToK(int input[], int n, int output[][50], int k) {
-    // Write your code here
     int a[50];
     helper(input,n,output,k,a,0);
 	return l;
